@@ -1,0 +1,62 @@
+:root {
+    --primary-color-darkcyan:hsl(185, 75%, 39%);
+    --primary-color-darkblue:hsl(229, 23%, 23%);
+    --primary-color-darkgrayishblue:hsl(227, 10%, 46%);
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.body-container {
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    background-color: var(--primary-color-darkcyan);
+    width:auto;
+    height:100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:18px;
+}
+
+.main-container {
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:350px;
+    height:350px;
+    background:rgb(255, 250, 250);
+    border-radius:5%;    
+}
+
+img {
+    border:4px solid rgb(229, 160, 160);
+    border-radius:50%;
+}
+
+.main-container__header-img {
+    display:flex;
+    position:relative;
+    margin:20px;
+}
+
+.main-container__header-p--fontWeight700 {
+    font-weight:700;
+    display:block;
+}
+
+.main-container__header-p--up {
+    display:block;
+}
+
+.footer-container {
+    display:flex;
+    position:absolute;
+    bottom:0;
+    left:0;    
+}
